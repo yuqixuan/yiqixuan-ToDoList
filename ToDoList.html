@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDoList</title>
+</head>
+<link rel="stylesheet" href="./TodoList.css">
+<!-- jQuery文件放body前面 -->
+<script src="./JQuery.js"></script>
+<body>
+    <header>
+        <div class="nav">
+            <div>
+                <span class="span" title="ToDoList">ToDoList</span>
+                <input class="input" type="text" placeholder="添加ToDo" id="input" onkeyup="input(event)">
+            </div>
+        </div>
+    </header>
+    <div class="box">
+        <span class="span2">正在进行<div class="badge" id="badge1">0</div></span>
+        <ul id="ul1">
+        </ul>
+        <span class="span3">已经完成<div class="badge" id="badge2">0</div></span>
+        <ul id="ul2" class="ul">
+        </ul>
+    </div>
+</body>
+<!-- js文件得放到body后面，要不然会先运行js文件，而js文件获取节点代码就会报错 -->
+<script src="./TodoList.js"></script>
+</html>

@@ -1,0 +1,151 @@
+  /* 整体背景样式 */
+  * {
+      margin: 0;
+      padding: 0;
+      background-color: aqua;
+  }
+
+  /* 导航条样式 */
+  .nav {
+      height: 50px;
+      background-color: black;
+  }
+
+  /* ToDoList样式 */
+  .span {
+      color: white;
+      font-size: x-large;
+      position: absolute;
+      top: 50%;
+      transform: translate(0%, -50%);
+      background-color: black;
+  }
+
+  /* 输入框样式 */
+  .input {
+      border-radius: 5px;
+      width: 350px;
+      height: 26px;
+      padding-left: 10px;
+      border: 1px solid white;
+      box-shadow: teal;
+      outline: medium;
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      margin: -14px 0 0 -362px;
+  }
+
+  .nav>div {
+      height: 50px;
+      width: 700px;
+      margin: 0 auto;
+      position: relative;
+      background-color: black;
+  }
+
+  .box {
+      height: 100px;
+      width: 700px;
+      margin: 0 auto;
+      position: relative;
+  }
+
+  /* 正在进行字体样式 */
+  .span2 {
+      width: 700px;
+      font-size: x-large;
+      font-weight: bold;
+      position: relative;
+      top: 30px;
+      display: block;
+  }
+
+  /* 已经完成子样式 */
+  .span3 {
+      width: 700px;
+      font-size: x-large;
+      font-weight: bold;
+      position: relative;
+      top: 50px;
+      display: block;
+  }
+
+  /* 徽章样式 */
+  .badge {
+      width: 23px;
+      height: 23px;
+      line-height: 23px;
+      border-radius: 23px;
+      background-color: darkgray;
+      font-size: 18px;
+      text-align: center;
+      display: inline-block;
+      position: absolute;
+      right: 0%;
+      top: 50%;
+      transform: translate(0%, -50%);
+  }
+
+  /* 日期样式 */
+  .date {
+      position: absolute;
+      top: 50%;
+      right: 10.5%;
+      transform: translate(0%, -50%);
+      background-color: white;
+  }
+
+  ul {
+      position: relative;
+      top: 40px;
+      list-style: none;
+  }
+
+  .ul {
+      position: relative;
+      top: 60px;
+      list-style: none;
+  }
+
+  li {
+      border: 1px solid red;
+      position: relative;
+      background-color: white;
+      padding: 5px 0;
+      margin: 5px 0;
+  }
+
+  /* li里面内容样式 */
+  .input2 {
+      background-color: white;
+      border-radius: 5px;
+      width: 450px;
+      height: 25px;
+      padding-left: 10px;
+      border: 0px solid red;
+      outline: medium;
+      position: relative;
+      left: 5%;
+  }
+
+  /* 复选框样式 */
+  .radio {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 50%;
+      left: 1%;
+      margin-top: -10px;
+  }
+
+  /* 按钮样式 */
+  .button {
+      width: 60px;
+      height: 24px;
+      font-size: 15px;
+      position: absolute;
+      top: 50%;
+      right: 1%;
+      margin-top: -12px;
+  }
